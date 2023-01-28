@@ -1,7 +1,7 @@
 :root {
     --primary-text-color: color: #434455;
     --title-text-color:color: #2E2F42;
-    --accent-color:#4D5AE5;
+    --accent-color:#404BBF;;
     --background-color: #FFFFFF;
 }
 
@@ -25,9 +25,10 @@ body {
 
 .logo {
     
-    font-family: 'Raleway', cursive;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.33;
+    letter-spacing: 0.03em;
     
     color: var(--title-text-color);
     
@@ -59,6 +60,7 @@ color: #4D5AE5;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
    
     color: var(--primary-text-color);
     
@@ -84,7 +86,7 @@ color: #FFFFFF;
 }
 
 .button {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -93,12 +95,12 @@ color: #FFFFFF;
   letter-spacing: 0.04em;
  
   color: #FFFFFF;
-  background-color: var(--accent-color);
+  background-color: #4D5AE5;;
 
 }
 .button:hover,
 .button:focus {
-    color: var(--accent-color)
+    background-color: var(--accent-color);
 }
 
 .hidden-title {
@@ -163,6 +165,7 @@ background-color:#FFFFFF;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
 
   color: var(--title-text-color);
 }
@@ -172,6 +175,7 @@ background-color:#FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     
     color: var(--primary-text-color);
 
@@ -187,6 +191,7 @@ background-color:#FFFFFF;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
 
     color: #F4F4FD;
 }
@@ -222,19 +227,23 @@ background-color:#FFFFFF;
 }
 
 .menu-item .btn {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     cursor: pointer;
+    letter-spacing: 0.04em;
 
     color: #4D5AE5;
     background-color: #F4F4FD;
 }
 
-.btn:hover,
-.btn:focus {
-    color: var(--accent-color);
+
+
+.btn:focus,
+.btn:hover {
+    background-color: var(--accent-color);
+    color: #FFFFFF;;
 }
 
 .services-item .pic {
@@ -250,7 +259,7 @@ background-color:#FFFFFF;
    
 }
 .services-item .text {
-    font-weight: 400;
+    
         font-size: 16px;
         line-height: 1.5;
          
