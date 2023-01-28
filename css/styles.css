@@ -101,6 +101,7 @@ color: #FFFFFF;
 .button:hover,
 .button:focus {
     background-color: var(--accent-color);
+    color: #FFFFFF;
 }
 
 .hidden-title {
